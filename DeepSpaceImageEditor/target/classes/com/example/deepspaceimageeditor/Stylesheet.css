@@ -1,0 +1,12 @@
+.button {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0.0, 0, 2);
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    //-fx-background-color: #0D47A1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 2, 0.0, 0, 1);
+}
